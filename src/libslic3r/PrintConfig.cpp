@@ -963,7 +963,7 @@ void PrintConfigDef::init_fff_params()
     def->label = L("Only for outer side");
     def->full_label = L("Ext peri first for outer side");
     def->category = OptionCategory::perimeter;
-    def->tooltip = L("Only do the vase trick on the external side. Useful when the thikness is too low.");
+    def->tooltip = L("Only do the vase trick on the external side. Useful when the thickness is too low.");
     def->mode = comExpert;
     def->set_default_value(new ConfigOptionBool(true));
 
@@ -971,7 +971,7 @@ void PrintConfigDef::init_fff_params()
     def->label = L("Only for inner side");
     def->full_label = L("ext peri first for inner side");
     def->category = OptionCategory::perimeter;
-    def->tooltip = L("Only do the vase trick on the external side. Useful when you only want to remode seam from screw hole.");
+    def->tooltip = L("Only do the vase trick on the external side. Useful when you only want to remove seam from screw hole.");
     def->mode = comExpert;
     def->set_default_value(new ConfigOptionBool(true));
 
